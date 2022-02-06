@@ -1,0 +1,43 @@
+{% extends 'landing/base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container-fluid home">
+    
+    <div class="row justify-content-center mt-5 ">
+        <div class="col-md-3 col-sm-3 text-center home__sub home__sub__1" >
+            <a href="{% url 'explore' %}">
+            <h1>Explore</h1>
+            <p>Find connections to services such as volunteer work, summer internships, and career development opportunities.</p>
+            <i class="fas fa-globe-americas "></i>
+            
+            </a>
+        </div>
+        <div class="col-md-3 col-sm-3 text-center home__sub home__sub__2" >
+            <a href="{% url 'contacts' %}">
+            <h1>Circle Contacts</h1>
+             <p>Access the contacts of Waltham Partnership for Youth Directors & Staff. </p>
+            <i class="far fa-address-book"></i>
+           
+
+            </a>
+        </div>
+        <div class="col-md-3 col-sm-3 text-center home__sub home__sub__3" >
+            <a href="{% url 'connector' %}">
+            <h1>Circle Connector</h1>
+             <p>Want to expand your circle? Message your Circles friends, staff, and coordinators here to help grow your network.  </p>
+            <i class="fab fa-connectdevelop"></i>
+              
+            </a>
+        </div>
+        <div class="col-md-3 col-sm-3 text-center home__sub home__sub__4">
+            <a href="{% url 'post-list' %}">
+            <h1>Forum</h1>
+             <p>Do you have questions about career development, employment, personal skills, languages, etc.? Ask them in our forum!</p>
+            <i class="far fa-comments"></i>
+             
+            </a>
+        </div>
+    </div>
+</div>
+{% endblock content %}

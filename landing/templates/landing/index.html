@@ -1,0 +1,21 @@
+{% extends 'landing/base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container-fluid landing">
+    
+    
+    <div class="row text-center justify-content-center mt-5">
+                <img src="{% static 'img/circle.gif' %}" class="landing__img">
+
+            <h1 class="display-2 title">Expand Your Circle</h1>   
+
+                <p >A Specialized Media Platform for <b>Waltham Partnership for Youth. </b><br/>
+
+                    Building a Community of Equity, Belonging, and Opportunity for All Waltham Youth.</p>
+                <a href="{% url 'account_login' %}"  class="btn btn-light landing__btn">Log In</a>
+                <a href="{% url 'account_signup' %}" class="btn btn-dark landing__btn">Register</a>
+        </div>
+    </div>
+</div>
+{% endblock content %}

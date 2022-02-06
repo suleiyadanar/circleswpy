@@ -1,0 +1,46 @@
+.home{
+   margin-top:13vh;
+   margin-left:0;
+ 
+
+    &__sub{
+        margin-top:20vh;
+        
+        &:hover{
+           
+            box-shadow: 0 0 5px $torquise;
+        }
+        border-radius: 500px;
+        width:300px;
+        
+        margin: 3px;
+        padding-top:3rem;
+        height:50vh;
+        position: relative;
+      
+        align-items: center;
+
+        &__1{
+            background-color:$green;
+        }
+        &__2{
+            background-color:$btn-dark;
+        }
+        &__3{
+            background-color:$primary-color;
+        }
+        &__4{
+            background-color:$secondary-color;
+        }
+    }
+
+    a{
+        text-decoration: none;
+        color:rgba(1,1,1,1);
+        
+
+    }
+    i{
+        font-size:7rem;
+    }
+}

@@ -1,0 +1,16 @@
+.forms{
+    height: 100vh;
+    position:fixed;
+    top:0;
+    
+    background-color: $primary-color;
+    &__body{
+        width:50vw;
+        border-radius: 10px;
+        margin:5vh 0 0 23vw;
+        box-shadow: 0 0 15px rgb(252, 208, 208);
+        padding: 5vh 0 15vh 0;
+        background-color: $secondary-color;
+    }
+}
+
