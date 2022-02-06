@@ -90,7 +90,6 @@ Pygments==2.8.1
 PyJWT==2.3.0
 pylint==2.12.2
 PyMsgBox==1.0.9
-pyobjc==7.3
 pyparsing==2.4.7
 pyperclip==1.8.2
 PyRect==0.1.4
